@@ -1,0 +1,97 @@
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.aab
+*.ap_
+*.dex
+*.a_
+
+# Binaries
+bin/
+gen/
+out/
+
+# Build directory
+build/
+
+# Gradle files
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file (sdk path, ndk path, keystore details, etc.)
+# Bu dosya hassas bilgiler içerebilir ve her geliştiricinin ortamına özeldir.
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio/IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/runConfigurations/
+# Android Studio specific misc files
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/render.experimental.xml
+.idea/vcs.xml
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files (ÇOK ÖNEMLİ: Uygulama imzalama anahtarlarınızı ASLA paylaşmayın!)
+*.jks
+*.keystore
+
+# Google Services (Firebase vb.) - Eğer proje özelinde değilse veya herkesin erişmemesi gerekiyorsa ekleyin
+# google-services.json
+
+# Proguard output files
+proguard/
+*.map
+
+# Hprof memory dump files
+*.hprof
+
+# Lint generated files
+lint/reports/*
+# Genellikle hata ayıklama raporunu tutmak faydalıdır, isterseniz bu satırı kaldırabilirsiniz
+!lint/reports/lint-results-debug.xml
+
+# CMake generated files
+cmake-build-debug/
+cmake-build-release/
+CMakeLists.txt.user
+
+# VS Code files (Eğer kullanılıyorsa)
+.vscode/
+
+# Kullanıcının özel isteği: "saved vb içerikler"
+# Eğer projenizde belirli "saved" veya geçici klasör/dosya adları varsa,
+# buraya özel olarak ekleyebilirsiniz. Örneğin:
+# saved_data/
+# *.sav
+# temp_files/
+
+# Mac OS specific files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db

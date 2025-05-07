@@ -206,7 +206,7 @@ RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişile
 - [x] Ödev 2: Fonksiyonlar - *Teslim edildi (27 Nisan)*
 - [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
 - [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
-- [ ] Ödev 5: Hesap Makinesi - *Devam ediyor (Teslim tarihi: 10 Mayıs)*
+- [x] Ödev 5: Hesap Makinesi - *Teslim edildi (7 Mayıs)*
 - [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
 
    - Kotlin veya Android ile ilgili Bootcamp sürecinde yazılıp yayınlanmış bir medium makalesi yazma

@@ -10,7 +10,7 @@ Bu repo, **Pupilica** tarafından sunulan ve **Kasım Adalan**'ın eğitmenliği
 - **Başlangıç Tarihi:** 22 Nisan 2025 - 19:00
 - **Bitiş Tarihi:** 4 Haziran 2025 - 14:00
 - **Toplam Süre:** 48 saat
-- **Mevcut Durum:** Devam Ediyor (4 Mayıs 2025 itibariyle)
+- **Mevcut Durum:** Devam Ediyor (7 Mayıs 2025 itibariyle)
 
 ## 📚 Bootcamp İçeriği
 
@@ -49,6 +49,9 @@ Tasarım konusunu daha ileri seviyeye taşıyan uygulama projesi. Material Desig
 
 ### 7. WidgetsKullanimi ✓
 Android widget'larının (Button, TextView, ImageView, Toggle Button vb.) kullanımını gösteren bir proje. Kullanıcı etkileşimi için Toast, Dialog, SnackBar gibi bileşenlerin kullanımını da içerir.
+
+### 8. KisilerUygulamasi ✓
+RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişiler Listesi uygulaması. Material Design prensiplerini içerir ve MVVM mimarisi öncesi hazırlık uygulamasıdır.
 
 ## 📋 Bootcamp Ders İçeriği İlerleme Durumu
 
@@ -141,18 +144,18 @@ Android widget'larının (Button, TextView, ImageView, Toggle Button vb.) kullan
 - [x] Dialog Kullanımı 
 - [x] SnackBar Kullanımı 
 
-#### Bölüm 6: Material Design (Devam Ediyor)
+#### Bölüm 6: Material Design ✓
 - [x] Material Design Giriş 
 - [x] Toolbar Kullanımı 
-- [ ] Arama Özelliği Ekleme 
-- [ ] RecyclerView ve CardView Giriş 
-- [ ] CardView Tasarımı 
-- [ ] RecyclerView Yapısını Android Sayfasına Ekleme 
-- [ ] RecyclerView için Adapter Oluşturma 
-- [ ] RecyclerView İçinde Verileri Gösterme 
-- [ ] RecyclerView Listeleme Görünümünü Değiştirme 
-- [ ] Uygulama: RecyclerView Detaylı Tasarım 
-- [ ] Kişiler Uygulaması - Temel Tasarım  
+- [x] Arama Özelliği Ekleme 
+- [x] RecyclerView ve CardView Giriş 
+- [x] CardView Tasarımı 
+- [x] RecyclerView Yapısını Android Sayfasına Ekleme 
+- [x] RecyclerView için Adapter Oluşturma 
+- [x] RecyclerView İçinde Verileri Gösterme 
+- [x] RecyclerView Listeleme Görünümünü Değiştirme 
+- [x] Uygulama: RecyclerView Detaylı Tasarım 
+- [x] Kişiler Uygulaması - Temel Tasarım  
 
 #### Bölüm 7: Android Uygulama Mimarisi
 - [ ] MVVM Clean Architecture
@@ -234,7 +237,7 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 - [ ] Room Database
 - [ ] Retrofit
 - [ ] MVVM Mimarisi
-- [ ] Material Design (Devam Ediyor)
+- [x] Material Design
 - [ ] Dagger Hilt
 - [ ] Coroutines
 

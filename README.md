@@ -10,7 +10,7 @@ Bu repo, **Pupilica** tarafından sunulan ve **Kasım Adalan**'ın eğitmenliği
 - **Başlangıç Tarihi:** 22 Nisan 2025 - 19:00
 - **Bitiş Tarihi:** 4 Haziran 2025 - 14:00
 - **Toplam Süre:** 48 saat
-- **Mevcut Durum:** Devam Ediyor (7 Mayıs 2025 itibariyle)
+- **Mevcut Durum:** Devam Ediyor (8 Mayıs 2025 itibariyle)
 
 ## 📚 Bootcamp İçeriği
 
@@ -51,7 +51,13 @@ Tasarım konusunu daha ileri seviyeye taşıyan uygulama projesi. Material Desig
 Android widget'larının (Button, TextView, ImageView, Toggle Button vb.) kullanımını gösteren bir proje. Kullanıcı etkileşimi için Toast, Dialog, SnackBar gibi bileşenlerin kullanımını da içerir.
 
 ### 8. KisilerUygulamasi ✓
-RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişiler Listesi uygulaması. Material Design prensiplerini içerir ve MVVM mimarisi öncesi hazırlık uygulamasıdır.
+RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişiler Listesi uygulaması. RecyclerView, adapter kullanımı, kişi ekleme, silme ve güncelleme işlemleri için temel CRUD operasyonlarını içerir.
+
+### 9. FilmlerApp ✓
+Film listesi gösteren bir uygulama. RecyclerView ve CardView kullanımını pekiştirme amaçlı geliştirilmiştir. Material Design prensipleri uygulanmıştır.
+
+### 10. Calculator ✓
+Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap makinesi uygulaması.
 
 ## 📋 Bootcamp Ders İçeriği İlerleme Durumu
 
@@ -157,9 +163,9 @@ RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişile
 - [x] Uygulama: RecyclerView Detaylı Tasarım 
 - [x] Kişiler Uygulaması - Temel Tasarım  
 
-#### Bölüm 7: Android Uygulama Mimarisi
-- [ ] MVVM Clean Architecture
-- [ ] DataBinding Kullanımı 
+#### Bölüm 7: Android Uygulama Mimarisi (Devam Ediyor)
+- [x] MVVM Clean Architecture Giriş
+- [x] DataBinding Kullanımı Giriş 
 - [ ] ViewModel Kullanımı 
 - [ ] LiveData Kullanımı 
 - [ ] Data Layer: Repository + Data Source Kullanımı 
@@ -203,11 +209,11 @@ RecyclerView ve CardView kullanımını pekiştirmek için geliştirilen Kişile
 ## 📈 Ödev Durumu
 
 - [x] Ödev 1: Değişkenler - *Teslim edildi (27 Nisan)*
-- [x] Ödev 2: Fonksiyonlar - *Teslim edildi (27 Nisan)*
-- [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
-- [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
-- [x] Ödev 5: Hesap Makinesi - *Teslim edildi (7 Mayıs)*
-- [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
+   - [x] Ödev 2: Fonksiyonlar - *Teslim edildi (27 Nisan)*
+   - [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
+   - [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
+   - [x] Ödev 5: Hesap Makinesi - *Devam ediyor (Teslim tarihi: 10 Mayıs)*
+   - [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
 
    - Kotlin veya Android ile ilgili Bootcamp sürecinde yazılıp yayınlanmış bir medium makalesi yazma
 
@@ -234,9 +240,11 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 - [x] Android SDK
 - [x] XML
 - [x] Navigation Component
+- [x] RecyclerView ve CardView
+- [ ] DataBinding (Başlandı)
 - [ ] Room Database
 - [ ] Retrofit
-- [ ] MVVM Mimarisi
+- [ ] MVVM Mimarisi (Başlandı)
 - [x] Material Design
 - [ ] Dagger Hilt
 - [ ] Coroutines

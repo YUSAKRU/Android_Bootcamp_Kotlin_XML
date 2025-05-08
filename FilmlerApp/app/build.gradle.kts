@@ -2,11 +2,10 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
-
 }
 
 android {
-    namespace = "com.example.kisileruygulamasi"
+    namespace = "com.example.filmlerapp"
     compileSdk = 35
 
     buildFeatures {
@@ -14,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.kisileruygulamasi"
+        applicationId = "com.example.filmlerapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -48,9 +47,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.0")
+    implementation("androidx.navigation:navigation-ui:2.5.0")
 }

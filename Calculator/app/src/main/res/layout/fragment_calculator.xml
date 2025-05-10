@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <!-- Display background -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/displayCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/display_background"
+        app:cardCornerRadius="13dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textOperation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="45 x 24"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="1080"
+                android:textColor="@color/text_color_light"
+                android:textSize="64sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Buttons layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Row 1: C, (), %, / -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_dark_background"
+                    android:text="C"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonParentheses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_dark_background"
+                    android:text="()"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonPercent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_dark_background"
+                    android:text="%"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonDivide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_operator_background"
+                    android:text="/"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Row 2: 7, 8, 9, x -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="7"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="8"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="9"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonMultiply"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_operator_background"
+                    android:text="x"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Row 3: 4, 5, 6, - -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="4"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="5"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="6"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonMinus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_operator_background"
+                    android:text="-"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Row 4: 1, 2, 3, + -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="1"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="2"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="3"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonPlus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_operator_background"
+                    android:text="+"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Row 5: +/-, 0, ., = -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonPlusMinus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="+/-"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/button0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="0"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_number_background"
+                    android:text="."
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/buttonEquals"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/equals_button_gradient"
+                    android:text="="
+                    android:textColor="@color/text_color_light"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout> 

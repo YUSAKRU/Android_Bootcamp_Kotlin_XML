@@ -2,4 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Calculator dark theme colors -->
+    <color name="background_dark">#171C22</color>
+    <color name="display_background">#212A35</color>
+    <color name="button_background_dark">#2E3A48</color>
+    <color name="button_number">#171C22</color>
+    <color name="text_color_light">#EAEBED</color>
+    <color name="text_color_secondary">#828A93</color>
+    <color name="button_operator">#6344D4</color>
+    <color name="button_equals_gradient_start">#A430FF</color>
+    <color name="button_equals_gradient_middle">#F318AD</color>
+    <color name="button_equals_gradient_end">#FF2171</color>
 </resources>

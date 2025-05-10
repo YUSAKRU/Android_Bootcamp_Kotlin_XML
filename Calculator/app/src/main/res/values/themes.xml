@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
@@ -5,5 +6,26 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/button_operator</item>
+        <item name="colorPrimaryVariant">@color/button_equals_gradient_start</item>
+        <item name="colorOnPrimary">@color/text_color_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/button_equals_gradient_middle</item>
+        <item name="colorSecondaryVariant">@color/button_equals_gradient_end</item>
+        <item name="colorOnSecondary">@color/text_color_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        <!-- No button background tint -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="rippleColor">@null</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
 </resources>

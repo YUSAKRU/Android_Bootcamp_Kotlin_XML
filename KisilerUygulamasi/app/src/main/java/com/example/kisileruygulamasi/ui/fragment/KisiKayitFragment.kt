@@ -20,13 +20,14 @@ class KisiKayitFragment : Fragment() {
         binding.buttonKaydet.setOnClickListener {
             val kisi_ad = binding.editTextKisiAd.text.toString()
             val kisi_tel = binding.editTextKisiTel.text.toString()
-            kaydet(kisi_ad,kisi_tel)
+            kaydet(kisi_ad, kisi_tel)
+
         }
 
         return binding.root
     }
 
-    fun kaydet(kisi_ad: String,kisi_tel: String){
-        Log.e("Kişi Kaydet","$kisi_ad - $kisi_tel")
+    fun kaydet(kisi_ad: String, kisi_tel: String) {
+        Log.e("KisiKayitFragment", "Kisi Ad: $kisi_ad, Kisi Tel: $kisi_tel")
     }
 }

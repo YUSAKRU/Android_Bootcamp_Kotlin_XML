@@ -2,13 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
+
 }
 
 android {
     namespace = "com.example.kisileruygulamasi"
     compileSdk = 35
 
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 

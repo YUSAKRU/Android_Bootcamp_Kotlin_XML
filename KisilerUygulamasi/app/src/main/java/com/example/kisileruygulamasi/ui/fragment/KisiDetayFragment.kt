@@ -10,7 +10,6 @@ import androidx.navigation.fragment.navArgs
 import com.example.kisileruygulamasi.R
 import com.example.kisileruygulamasi.databinding.FragmentKisiDetayBinding
 
-
 class KisiDetayFragment : Fragment() {
     private lateinit var binding: FragmentKisiDetayBinding
     override fun onCreateView(
@@ -28,13 +27,15 @@ class KisiDetayFragment : Fragment() {
         binding.buttonGuncelle.setOnClickListener {
             val kisi_ad = binding.editTextKisiAd.text.toString()
             val kisi_tel = binding.editTextKisiTel.text.toString()
-            guncelle(gelenKisi.kisi_id,kisi_ad,kisi_tel)
+            guncelle(gelenKisi.kisi_id, kisi_ad, kisi_tel)
         }
 
         return binding.root
+
     }
 
-    fun guncelle(kisi_id:Int,kisi_ad: String,kisi_tel: String){
-        Log.e("Kişi Güncelle","$kisi_id - $kisi_ad - $kisi_tel")
+    fun guncelle(lisi_id: Int, kisi_ad: String, kisi_tel: String) {
+        Log.e("Kisi Guncelle", "Kisi ID: $lisi_id, Kisi Ad: $kisi_ad, Kisi Tel: $kisi_tel")
     }
+
 }

@@ -166,12 +166,12 @@ Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap 
 #### Bölüm 7: Android Uygulama Mimarisi (Devam Ediyor)
 - [x] MVVM Clean Architecture Giriş
 - [x] DataBinding Kullanımı Giriş 
-- [ ] ViewModel Kullanımı 
-- [ ] LiveData Kullanımı 
-- [ ] Data Layer: Repository + Data Source Kullanımı 
-- [ ] Kişiler Uygulaması - MVVM 
-- [ ] Extension Kullanımı 
-- [ ] Dependency Injection - Dagger Hilt 
+- [x] ViewModel Kullanımı 
+- [x] LiveData Kullanımı 
+- [x] Data Layer: Repository + Data Source Kullanımı 
+- [x] Kişiler Uygulaması - MVVM 
+- [x] Extension Kullanımı 
+- [x] Dependency Injection - Dagger Hilt 
 
 #### Bölüm 8: Android Depolama İşlemleri
 - [ ] Preference Datastore Kullanımı 
@@ -209,11 +209,11 @@ Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap 
 ## 📈 Ödev Durumu
 
 - [x] Ödev 1: Değişkenler - *Teslim edildi (27 Nisan)*
-   - [x] Ödev 2: Fonksiyonlar - *Teslim edildi (27 Nisan)*
-   - [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
-   - [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
-   - [x] Ödev 5: Hesap Makinesi - *Devam ediyor (Teslim tarihi: 10 Mayıs)*
-   - [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
+- [x] Ödev 2: Fonksiyonlar - *Teslim edildi (27 Nisan)*
+- [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
+- [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
+- [x] Ödev 5: Hesap Makinesi - *Devam ediyor (Teslim tarihi: 10 Mayıs)*
+- [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
 
    - Kotlin veya Android ile ilgili Bootcamp sürecinde yazılıp yayınlanmış bir medium makalesi yazma
 
@@ -241,14 +241,13 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 - [x] XML
 - [x] Navigation Component
 - [x] RecyclerView ve CardView
-- [ ] DataBinding (Başlandı)
+- [x] DataBinding
 - [ ] Room Database
 - [ ] Retrofit
-- [ ] MVVM Mimarisi (Başlandı)
+- [x] MVVM Mimarisi
 - [x] Material Design
-- [ ] Dagger Hilt
+- [x] Dagger Hilt
 - [ ] Coroutines
-
 
 ## Teşekkür
 

@@ -14,5 +14,7 @@
         android:id="@+id/detayFragment"
         android:name="com.example.filmlerapp.DetayFragment"
         android:label="fragment_detay"
-        tools:layout="@layout/fragment_detay" />
+        tools:layout="@layout/fragment_detay" >
+        <argument android:name="filmNesnesi" />
+    </fragment>
 </navigation>

@@ -13,13 +13,13 @@ class DetayFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentDetayBinding.inflate(inflater, container, false)
 
         val bundle: DetayFragmentArgs by navArgs()
         val film = bundle.filmNesnesi
 
-        binding.toolbarDetay.title = film.stripLeading()
+        binding.toolbarDetay.title = film.ad
         binding.tvFiyat.text = "${film.fiyat} TL"
         binding.ivFilm.setImageResource(
             resources.getIdentifier(film.resim,"drawable",requireContext().packageName)

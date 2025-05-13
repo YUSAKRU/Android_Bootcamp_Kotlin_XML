@@ -3,6 +3,7 @@ package com.example.filmlerapp
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.filmlerapp.databinding.CardTasarimBinding
 import com.google.android.material.snackbar.Snackbar
@@ -23,6 +24,11 @@ class FilmlerAdapter (var mContext:Context,var filmlerListesi:List<Filmler>) : R
             Snackbar.make(it,"${film.ad} sepete eklendi",Snackbar.LENGTH_SHORT).show()
         }
 
+        // Add click listener to the card to navigate to detail screen
+        t.cardViewFilm.setOnClickListener {
+            val gecis = AnasayfaFragmentDirections.actionAnasayfaFragmentToDetayFragment(film)
+            Navigation.findNavController(it).navigate(gecis)
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardTasarimTutucu {
@@ -30,12 +36,7 @@ class FilmlerAdapter (var mContext:Context,var filmlerListesi:List<Filmler>) : R
         return CardTasarimTutucu(binding)
     }
 
-
-
     override fun getItemCount(): Int {
         return filmlerListesi.size
     }
-
-
-
 }

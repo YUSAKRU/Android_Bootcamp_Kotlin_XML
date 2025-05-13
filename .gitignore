@@ -109,3 +109,18 @@ Desktop.ini
 
 # Kotlin
 *.kotlin_module
+
+# Silinecek projeler - Sadece GitHub'da takip edilmeyecek klasörler
+/CalismaYapisi/
+/DatastoreKullanimi/
+/KisilerUygulamasi/
+/NavigationComponentKullanimi/
+/TasarimUygulama-main/
+/WidgetsKullanimi/
+
+# Sadece bu klasörler GitHub'a gönderilecek
+# Calculator/
+# KotlinDersleri-main/
+# TasarimCalismasi-main/
+# Odev4NavigationApp/
+# FilmlerApp/

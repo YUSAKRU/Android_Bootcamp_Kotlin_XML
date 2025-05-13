@@ -253,3 +253,10 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 
 Bu eğitim deneyimi için **Pupilica** organizasyonuna ve eğitmenimiz **Kasım Adalan**'a teşekkür ederim! Program devam ettikçe bu repo güncellenmeye devam edecektir.
 
+
+![image](https://github.com/user-attachments/assets/021d8b6e-6971-4592-ab38-9ede0ff5a9be)
+![image](https://github.com/user-attachments/assets/227ae5c1-a100-4c46-b4b4-60c087497677)
+![image](https://github.com/user-attachments/assets/ab351161-917d-4360-9114-d3ddf0bc571a)
+![image](https://github.com/user-attachments/assets/0d3dfa13-f65e-4e2c-be23-30415b942b7f)
+![image](https://github.com/user-attachments/assets/d4260ef8-5803-4bf6-9053-49e65b55aff6)
+![image](https://github.com/user-attachments/assets/c58ae8cc-318c-4ad5-a241-779db523fe1a)

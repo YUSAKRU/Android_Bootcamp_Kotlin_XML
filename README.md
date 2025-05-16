@@ -173,17 +173,17 @@ Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap 
 - [x] Extension Kullanımı 
 - [x] Dependency Injection - Dagger Hilt 
 
-#### Bölüm 8: Android Depolama İşlemleri
-- [ ] Preference Datastore Kullanımı 
-- [ ] Preference Datastore: Sayaç Uygulaması 
-- [ ] Veri Tabanına Giriş 
-- [ ] DB Browser ile SQL ifadeler 
-- [ ] DB Browser ile FOREIGN KEY sorguları 
-- [ ] Room Database ve Coroutines Kullanımı 
-- [ ] Room Database ile Veri kaydı ve Okuma İşlemi 
-- [ ] Room Database ile Veri Silme ve Güncelleme 
-- [ ] Room Database ile SELECT Sorguları 
-- [ ] Kişiler Uygulaması - Room Database
+#### Bölüm 8: Android Depolama İşlemleri ✓
+- [x] Preference Datastore Kullanımı 
+- [x] Preference Datastore: Sayaç Uygulaması 
+- [x] Veri Tabanına Giriş 
+- [x] DB Browser ile SQL ifadeler 
+- [x] DB Browser ile FOREIGN KEY sorguları 
+- [x] Room Database ve Coroutines Kullanımı 
+- [x] Room Database ile Veri kaydı ve Okuma İşlemi 
+- [x] Room Database ile Veri Silme ve Güncelleme 
+- [x] Room Database ile SELECT Sorguları 
+- [x] Kişiler Uygulaması - Room Database
 
 #### Bölüm 9: İnternet Tabanlı İşlemleri
 - [ ] Restful Mimarisi 
@@ -242,7 +242,7 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 - [x] Navigation Component
 - [x] RecyclerView ve CardView
 - [x] DataBinding
-- [ ] Room Database
+- [x] Room Database
 - [ ] Retrofit
 - [x] MVVM Mimarisi
 - [x] Material Design

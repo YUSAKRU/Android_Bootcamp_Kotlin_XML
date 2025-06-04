@@ -20,10 +20,10 @@ Bu programda, Android Mobil Uygulama geliştirmeyi öğrenmekte, Kotlin programl
 
 - [x] Kotlin dilinde programlama
 - [x] Android programlama dünyasının temel detayları
-- [ ] Android programlama dünyasının ileri seviye detayları
-- [ ] Profesyonel uygulama geliştirme teknikleri
-- [ ] MVVM Uygulama Mimarisi
-- [ ] Android programlama dünyasında yer alan popüler kütüphaneler
+- [x] Android programlama dünyasının ileri seviye detayları
+- [x] Profesyonel uygulama geliştirme teknikleri
+- [x] MVVM Uygulama Mimarisi
+- [x] Android programlama dünyasında yer alan popüler kütüphaneler
 
 ## 📂 Projeler ve Çalışmalar
 
@@ -58,6 +58,9 @@ Film listesi gösteren bir uygulama. RecyclerView ve CardView kullanımını pek
 
 ### 10. Calculator ✓
 Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap makinesi uygulaması.
+
+### 11. Bitirme Projesi ✓
+
 
 ## 📋 Bootcamp Ders İçeriği İlerleme Durumu
 
@@ -186,25 +189,25 @@ Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap 
 - [x] Kişiler Uygulaması - Room Database
 
 #### Bölüm 9: İnternet Tabanlı İşlemleri
-- [ ] Restful Mimarisi 
-- [ ] İnternet Üzerindeki Mysql Veritabanı 
-- [ ] PHP ile Web Service Yazma 
-- [ ] PHP Web Service Host Edilmesi 
-- [ ] Json Parse İşlemi 
-- [ ] Retrofit 2 Kütüphanesi Kurulum 
-- [ ] Retrofit 2 ile Select İşlemi 
-- [ ] Retrofit 2 ile Insert - Update - Delete İşlemi 
-- [ ] Glide Kütüphanesi Kullanımı 
-- [ ] Kişiler Uygulaması - Retrofit 2 
+- [x] Restful Mimarisi 
+- [x] İnternet Üzerindeki Mysql Veritabanı 
+- [x] PHP ile Web Service Yazma 
+- [x] PHP Web Service Host Edilmesi 
+- [x] Json Parse İşlemi 
+- [x] Retrofit 2 Kütüphanesi Kurulum 
+- [x] Retrofit 2 ile Select İşlemi 
+- [x] Retrofit 2 ile Insert - Update - Delete İşlemi 
+- [x] Glide Kütüphanesi Kullanımı 
+- [x] Kişiler Uygulaması - Retrofit 2 
 
 #### Bölüm 10: İleri Android
-- [ ] WorkManager Kullanımı
-- [ ] Bildirim Oluşturma 
+- [x] WorkManager Kullanımı
+- [x] Bildirim Oluşturma 
 
 #### Bölüm 11: Lokasyon İşlemleri
-- [ ] Android İzin Kontrollerini Kullanma 
-- [ ] Konum Kullanımı 
-- [ ] Harita Kullanımı
+- [x] Android İzin Kontrollerini Kullanma 
+- [x] Konum Kullanımı 
+- [x] Harita Kullanımı
 
 ## 📈 Ödev Durumu
 
@@ -213,7 +216,7 @@ Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap 
 - [x] Ödev 3: Tasarım - *Teslim edildi (1 Mayıs)*
 - [x] Ödev 4: Çalışma Yapısı (Navigation Component) - *Teslim edildi (4 Mayıs)*
 - [x] Ödev 5: Hesap Makinesi - *Devam ediyor (Teslim tarihi: 10 Mayıs)*
-- [ ] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
+- [x] Medium Yazısı - *Beklemede (Teslim tarihi: 20 Mayıs)*
 
    - Kotlin veya Android ile ilgili Bootcamp sürecinde yazılıp yayınlanmış bir medium makalesi yazma
 
@@ -243,11 +246,11 @@ Program sonunda başarı sertifikası aşağıdaki konular üzerinden hesaplanac
 - [x] RecyclerView ve CardView
 - [x] DataBinding
 - [x] Room Database
-- [ ] Retrofit
+- [x] Retrofit
 - [x] MVVM Mimarisi
 - [x] Material Design
 - [x] Dagger Hilt
-- [ ] Coroutines
+- [x] Coroutines
 
 ## Teşekkür
 

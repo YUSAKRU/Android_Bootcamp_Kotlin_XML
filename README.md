@@ -60,7 +60,7 @@ Film listesi gösteren bir uygulama. RecyclerView ve CardView kullanımını pek
 Hesap makinesi ödev projesi. Temel matematiksel işlemleri yapabilen bir hesap makinesi uygulaması.
 
 ### 11. Bitirme Projesi ✓
-
+Yemek satın alım uygulaması. (Ashane projesi)
 
 ## 📋 Bootcamp Ders İçeriği İlerleme Durumu
 
